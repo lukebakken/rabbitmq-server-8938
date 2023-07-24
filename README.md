@@ -1,5 +1,10 @@
 # rabbitmq-server-8938
+
+## Discussion
+
 https://github.com/rabbitmq/rabbitmq-server/discussions/8938
+
+## Enable debug logging
 
 ```
 rabbitmq:
