@@ -1,0 +1,340 @@
+Starting RabbitMQ Container
+Jul 24, 2023 7:18:38 AM org.testcontainers.utility.ImageNameSubstitutor instance
+INFO: Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+Jul 24, 2023 7:18:39 AM org.testcontainers.dockerclient.DockerClientProviderStrategy lambda$loadConfiguredStrategy$9
+INFO: Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+Jul 24, 2023 7:18:39 AM org.testcontainers.dockerclient.DockerClientProviderStrategy tryOutStrategy
+INFO: Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+Jul 24, 2023 7:18:39 AM org.testcontainers.DockerClientFactory client
+INFO: Docker host IP address is localhost
+Jul 24, 2023 7:18:39 AM org.testcontainers.DockerClientFactory client
+INFO: Connected to docker: 
+  Server Version: 24.0.2
+  API Version: 1.43
+  Operating System: Arch Linux
+  Total Memory: 31971 MB
+Jul 24, 2023 7:18:39 AM org.testcontainers.utility.ResourceReaper instance
+WARNING: 
+********************************************************************************
+Ryuk has been disabled. This can cause unexpected behavior in your environment.
+********************************************************************************
+Jul 24, 2023 7:18:39 AM org.testcontainers.DockerClientFactory client
+INFO: Checking the system...
+Jul 24, 2023 7:18:39 AM org.testcontainers.DockerClientFactory check
+INFO: ✔︎ Docker server version should be at least 1.6.0
+Jul 24, 2023 7:18:39 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:18:39 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: f5bf76008cba0440536bbf63121c10eb49a3a8b374f5a9272521588700cac7e0
+Jul 24, 2023 7:18:43 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.173110345S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:18:44 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:18:44 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 24770f505ad7a786f7cf8f027b1a5e07e315c1b54a490d3ebf645f1cbde31860
+Jul 24, 2023 7:18:48 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.192272474S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:18:48 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:18:48 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 66e326325ea72547bd6556143e324242e51f0531acd468925a625529a8fecbe1
+Jul 24, 2023 7:18:52 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.075497453S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:18:53 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:18:53 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 152db856be5aaf2bbde015771df9ec4796371ff24a45f12b97a7391080c6d22d
+Jul 24, 2023 7:18:57 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.997022901S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:18:57 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:18:57 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: b9c72620c19c4ed28ad63b8b290e7513e35bfd278ae9aa4cec84b6f1dc9b8c8c
+Jul 24, 2023 7:19:01 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.13104215S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:01 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:02 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: cf623f9980c05abb6ac6ab54fecb8ef2b60a8fee61f9fb9beb5e952a3ee277c3
+Jul 24, 2023 7:19:05 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.934177267S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:06 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:06 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: a4ef12e340da6112fded66245b467c7009ecfb6ec3349fb9751a56991e802ded
+Jul 24, 2023 7:19:10 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.973189922S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:10 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:10 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 4b47c27cc375f245a9551cd9c50442240c91029808249254822c10ab0499870e
+Jul 24, 2023 7:19:14 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.862645449S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:14 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:15 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: f5f4420359236233a19034d44ab8430d253fb90123ed459cfa871f5199635267
+Jul 24, 2023 7:19:18 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.732050072S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:19 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:19 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 94da2c738cb42a4e44598393bd21fde98bda2f18d4f60c6bcadf6bed872ccf9b
+Jul 24, 2023 7:19:22 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.885441656S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:23 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:23 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 3b996dcb15ec2997cdf5365c3bca56b39f1fec2e4da3f5134beb94adafeb8ac4
+Jul 24, 2023 7:19:27 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.811704971S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:27 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:27 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: d1a35a11d38129eac11646616f40ad5a35b7d3f729f25952b72f44f0fc2a7440
+Jul 24, 2023 7:19:31 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.910909174S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:31 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:32 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 2334b3107f2ce573752f92d06f2439260b812e1c4acac028b662551aeb9968da
+Jul 24, 2023 7:19:35 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.022864725S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:36 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:36 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 3c2890ac6bb247ef86bdf76b52f0a2e0dada534f62f1a7b4827875c5ad223838
+Jul 24, 2023 7:19:40 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.852207459S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:40 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:40 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 996b9d7610fc68852a09b78fb73859fb6e8a768dcc7399dcc1c042146b62e637
+Jul 24, 2023 7:19:44 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.013394932S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:45 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:45 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 8c99789a0bba09b64b3d9065737a1dfe4bf6276cecfa7b10a6ecf54c7c245805
+Jul 24, 2023 7:19:48 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.856388133S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:49 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:49 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 49e328c7489dbd4e3d8c34924c88a8771a1c7c104f089e99ebcf4e079605fc89
+Jul 24, 2023 7:19:53 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.984229074S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:53 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:54 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: c757085682a6eb9f982cdb10468f090ba0dafaca51f5f0664e0ea3484fd9efe4
+Jul 24, 2023 7:19:57 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.98398748S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:19:58 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:19:58 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 6f16e284abbcdbc004419b71d287f61c9ae7a36b79ece8c7db402cb95d48b23c
+Jul 24, 2023 7:20:02 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.816193982S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:02 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:02 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 6cd583c17b307838e6cd7932f3196cd6fab965fd357f6f10b90aaa23ff3e4ed8
+Jul 24, 2023 7:20:06 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.936580053S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:06 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:06 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 545fd3894390f10015c56ead2a27d700cb49b22ce144b1e9ee91007cdfe01d8d
+Jul 24, 2023 7:20:10 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.869327855S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:11 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:11 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 325357d09074acb5e3c869e27435368fbabf1de544641c4b49364ba39d6d9f6f
+Jul 24, 2023 7:20:14 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.876088661S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:15 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:15 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 4e77c19be52f81c08f247bd8151034ec934d258c18f50b6a813f95332edc0c34
+Jul 24, 2023 7:20:19 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.914431036S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:19 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:19 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 4a8f39201d6f635676ce47a3e0ca01d541057ea668736808c40732a8bb1862dd
+Jul 24, 2023 7:20:23 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.007244024S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:24 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:24 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: a8220cdc88f798a01f137394e067a92616aff5c284255e2bb3f4bbfb302de4c6
+Jul 24, 2023 7:20:27 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.821850293S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:28 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:28 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: d328a68a87e0022a0061bfac5bf5fb82a096b1c843fd89df240525bc807c4e56
+Jul 24, 2023 7:20:32 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.000490851S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:32 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:32 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 4f0b7b16d451ab2bbd2e0f61c4c79384fb724f08a99dea7d4a72564d7c9dd6bf
+Jul 24, 2023 7:20:36 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.940069782S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:37 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:37 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: b1fcf19ba9e2cd7827c3bb01c66d238c8417269c009bf4ea2716b7f0c19db6b1
+Jul 24, 2023 7:20:41 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.058195508S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:41 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:41 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: bda2e07c9496b2ca38493da8c36ed079f25b96700e74a3d38044a3b1ac358ef6
+Jul 24, 2023 7:20:45 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.921511005S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:45 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:46 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: dedbc29a2568e6ea77b56583dcaf20afcb35187de4ceaeb1412d1e8f3b52324b
+Jul 24, 2023 7:20:50 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.247697937S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:50 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:50 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 584befbda091dae1401f8b001292d6c00050bfc05a56290e4df03e6e7c86f60c
+Jul 24, 2023 7:20:54 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.18242684S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:55 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:55 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: bfeb3b55b2ed3690dccda026e10f0ace479961dff541710ec62609662e635f2d
+Jul 24, 2023 7:20:59 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT4.03555947S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:20:59 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:20:59 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 946fba298a1030d7510eca407622a4fbc993466aa92c80b71ae683fefb82cdf5
+Jul 24, 2023 7:21:03 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.935153754S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:03 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:03 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 860c1be88bc214f30cb43e53b224394d8c56a5776f26c93e5aa200baefafe5ce
+Jul 24, 2023 7:21:07 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.918725724S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:08 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:08 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: e936f50af84e2d91d1e884b259323631a6e36d6e5d564a63bbc22e2337c318df
+Jul 24, 2023 7:21:12 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.985140145S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:12 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:12 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: ddde47419556cb0e3a38ea4892e9259db84a9d4df2c9f4ca852d12832ed2cbf4
+Jul 24, 2023 7:21:16 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.957411171S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:16 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:17 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: d7987cf1266ae3c9b4792087c8d41e28384b8009438b753cec7379c0a1b8b472
+Jul 24, 2023 7:21:20 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.889120743S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:21 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:21 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 55bf91ff71e43827fc156dc6dc67041e53a4388492826b78a3caf5140f1fae49
+Jul 24, 2023 7:21:25 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.965454753S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:25 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:25 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: 6079b26c28284e3185861caa3f12c0d78182d485e3b671ec85297926610d53d1
+Jul 24, 2023 7:21:29 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management started in PT3.786050968S
+Stopping RabbitMQ Container
+Starting RabbitMQ Container
+Jul 24, 2023 7:21:29 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Creating container for image: rabbitmq:3.9-management
+Jul 24, 2023 7:21:29 AM org.testcontainers.containers.GenericContainer tryStart
+INFO: Container rabbitmq:3.9-management is starting: d38d7d3096f5c209427415e6230664d7822f56f2b5899e83775d11bde6709226
